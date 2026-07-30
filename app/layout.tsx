@@ -4,7 +4,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
-import { siteConfig } from "@/lib/site-config";
+import { siteConfig, siteUrl } from "@/lib/site-config";
 
 const cinzel = Cinzel({
   variable: "--font-cinzel",
@@ -18,7 +18,6 @@ const poppins = Poppins({
   weight: ["300", "400", "500", "600", "700"],
 });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
 const instagramUrl = siteConfig.instagramUrl;
 const email = siteConfig.email;
 
@@ -75,6 +74,9 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: siteUrl,
+  },
+  verification: {
+    google: process.env.GOOGLE_SITE_VERIFICATION,
   },
 };
 

@@ -2,6 +2,14 @@ const whatsappNumber = "5511915012443";
 const address =
   "Rua Prudente de Moraes, 1430, Centro, Jundiaí - SP, 13201-004";
 
+// Resolution order: explicit override -> Vercel's assigned production domain
+// (auto-updates once a custom domain is attached) -> local dev fallback.
+export const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ||
+  (process.env.VERCEL_PROJECT_PRODUCTION_URL
+    ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+    : "http://localhost:3000");
+
 export const siteConfig = {
   name: "GranPet",
   tagline: "Pet Shop e Centro Veterinário",
