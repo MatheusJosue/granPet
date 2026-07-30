@@ -131,6 +131,7 @@ export default function Footer() {
             Feito com cuidado
             <FaPaw className="text-gold-500" />
           </p>
+          <p>Feito por MJXC Soluções em TI</p>
         </div>
       </div>
     </footer>
