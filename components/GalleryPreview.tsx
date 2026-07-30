@@ -5,12 +5,11 @@ import { motion } from "framer-motion";
 import SectionHeading from "@/components/SectionHeading";
 
 const photos = [
-  { src: "/images/depois5.jpeg", label: "Banho e tosa com carinho" },
-  { src: "/images/antes9.jpeg", label: "Atendimento individual" },
-  { src: "/images/depois8.jpeg", label: "Resultado impecável" },
-  { src: "/images/depois3.jpeg", label: "Pelagem saudável" },
-  { src: "/images/antes3.jpeg", label: "Cuidado do início ao fim" },
-  { src: "/images/depois1.jpeg", label: "Pets sempre felizes" },
+  { src: "/images/granpet-bob.jpeg", label: "Banho e tosa com carinho" },
+  { src: "/images/granpet-nairobi.jpeg", label: "Atendimento individual" },
+  { src: "/images/granpet-pandora.jpeg", label: "Resultado impecável" },
+  { src: "/images/granpet-lubjana.jpeg", label: "Pelagem saudável" },
+  { src: "/images/granpet-maya.jpeg", label: "Cuidado do início ao fim" },
 ];
 
 export default function GalleryPreview() {

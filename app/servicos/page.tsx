@@ -27,7 +27,7 @@ export default function ServicosPage() {
         eyebrow="Estética Animal"
         title="Banho e Tosa"
         description="Banho, tosa higiênica, tosa na tesoura ou máquina, hidratação e muito mais — para todos os portes e tipos de pelagem, com pacotes mensais e quinzenais para quem quer economizar."
-        image={{ src: "/images/depois15.jpeg", alt: "Pet após banho e tosa" }}
+        image={{ src: "/images/granpet-bob.jpeg", alt: "Pet após banho e tosa" }}
         whatsappMessage="Olá! Gostaria de agendar um banho e tosa na GranPet."
         bullets={[
           "Banho para pelo curto, longo, sub-pelo e gatos",
@@ -57,7 +57,7 @@ export default function ServicosPage() {
         eyebrow="Prevenção"
         title="Vacinas e Prevenção"
         description="Manter a vacinação e a prevenção em dia é o cuidado mais importante para a saúde e a longevidade do seu pet."
-        image={{ src: "/images/antes9.jpeg", alt: "Pet saudável e vacinado" }}
+        image={{ src: "/images/granpet-nairobi.jpeg", alt: "Pet saudável e vacinado" }}
         whatsappMessage="Olá! Gostaria de saber mais sobre vacinas e prevenção para o meu pet."
         reverse
         tint
@@ -75,7 +75,7 @@ export default function ServicosPage() {
         eyebrow="Saúde"
         title="Clínica Veterinária"
         description="Consultas e acompanhamento clínico para cuidar da saúde do seu pet em todas as fases da vida, com atenção individual em cada consulta."
-        image={{ src: "/images/depois9.jpeg", alt: "Pet em consulta veterinária" }}
+        image={{ src: "/images/granpet-lubjana.jpeg", alt: "Pet em consulta veterinária" }}
         whatsappMessage="Olá! Gostaria de agendar uma consulta veterinária."
         bullets={[
           "Consultas clínicas gerais",

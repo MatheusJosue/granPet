@@ -77,7 +77,7 @@ export default function WhyChooseUs() {
           >
             <div className="overflow-hidden rounded-[28px] border-4 border-white shadow-2xl">
               <Image
-                src="/images/depois13.jpeg"
+                src="/images/granpet-maya.jpeg"
                 alt="Pet cuidado na GranPet"
                 width={520}
                 height={620}

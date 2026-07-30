@@ -63,7 +63,7 @@ export default function SobrePage() {
           <div className="relative mx-auto w-full max-w-md lg:order-2">
             <div className="overflow-hidden rounded-[28px] border-4 border-white shadow-2xl">
               <Image
-                src="/images/depois9.jpeg"
+                src="/images/granpet-pandora.jpeg"
                 alt="Pet cuidado na GranPet"
                 width={520}
                 height={620}
