@@ -86,7 +86,7 @@ export default function Hero() {
           <div className="absolute -inset-4 rounded-[32px] bg-gradient-to-br from-gold-300/25 via-transparent to-transparent blur-2xl" />
           <div className="relative aspect-[4/5] overflow-hidden rounded-[28px] border-4 border-gold-400/70 shadow-2xl">
             <Image
-              src="/images/granpet-lubjana.jpeg"
+              src="/images/granpet-nairobi.jpeg"
               alt="Pet cuidado com carinho"
               fill
               sizes="(max-width: 640px) 280px, (max-width: 1024px) 384px, 448px"
